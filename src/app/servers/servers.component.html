@@ -9,7 +9,9 @@
       </a>
     </div>
   </div>
+  <!-- <a [routerLink]="[ '/servers' ]">name</a> -->
   <div class="col-xs-12 col-sm-4">
+    <button class="btn btn-primary" (click) = "onReload()">Reload</button>
     <app-edit-server></app-edit-server>
     <hr>
     <app-server></app-server>
